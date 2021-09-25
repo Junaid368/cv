@@ -3,49 +3,198 @@
 
 <head>
   <meta charset="utf-8">
-  <title >Junaid's Personal Info 😀</title>
+  <title>Junaid's Personal Info 😀</title>
+  <style>
+    .button {
+      border: none;
+      color: white;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 2px;
+      cursor: pointer;
+      background-color: #4CAF50;
+    }
+
+
+
+    body {
+      background-color: #EAF6F6;
+      align-content: center;
+      center;
+      /* text-align:center; */
+    }
+
+    img {
+      width: 150px;
+      height: 150px;
+    }
+
+    hr {
+
+      border-style: none none dotted none;
+
+      height: 3px;
+      background-color: #EAF6F6;
+
+      border-width: 10px;
+
+      width: 3%;
+    }
+
+    .navbar {
+      margin: 0 0 20px;
+
+
+      padding: 30px;
+      background-color: #A2CDCD;
+      border-radius: 30px;
+      text-align: center;
+      position:fixed;
+      top:0;
+      width:100%;
+      z-index: 1;
+    }
+
+    .navlink {
+      font-size: 25px;
+      font-weight: bolder;
+      padding: 10px;
+      text-decoration: none;
+      color: white;
+
+
+    }
+
+    .navlink:hover {
+      color: grey;
+
+    }
+
+    .navbar:hover {
+      /* margin: 0px 0px 20px;
+      padding: 50px 50px; */
+
+      background-color: black;
+    }
+
+    .move{
+      margin-top: 90px;
+      position: relative;
+    }
+
+    .Red{
+      height: 150px;
+      padding: 0;
+      margin: 0;
+      background-color: red;
+
+
+    }
+    .Blue{
+      height: 150px;
+      padding: 0;
+      margin: 0;
+      background-color: blue;
+
+
+    }
+    .Yellow{
+      height: 150px;
+      margin: 0;
+      background-color: yellow;
+      padding: 0;
+
+
+    }
+  </style>
+
 </head>
 
 <body>
-  <a href="#down">My Hobbies</a>
-  <a href="#down1">Contact Me</a>
-  <table cellspacing="10" >
-    <tr>
-      <td><img src="Images/Junaid.png" alt="Junaid Profile Photo" width="150px" height="150px"></td>
-      <td><h1>Muhammad Junaid Amjad</h1>
-      <p><em>Graduated From <a href="https://iqra.edu.pk/">Iqra Universty</a></em></p></td>
-    </tr>
-  </table>
+  <center>
+    <div class="navbar" >
+      <a class="navlink" href="#down1">Contact Me</a>
+      <a class="navlink" href="#down">My Hobbies</a>
+    </div>
 
-  <br>
-  <hr>
-  <br>
-  <table>
-    <thead>
-      <th colspan="2"><h3>Skills</h3></th>
-    </thead>
-    <tbody >
-      <tr>
-        <td><b><a href="https://therentacar.pk/">WordPress</a> <td>&#11088;&#11088;&#11088;&#11088; </td> </b></td>
-        <td><b>Java <td>	&#11088; &#11088; </td> </b></td>
-      </tr>
-      <tr>
-        <td><b>SQL <td>	&#11088;	&#11088; </td> </b></td>
-        <td><b>Visual Studio <td>	&#11088; &#11088; </td> </b></td>
-      </tr>
-      <tr>
-        <td><b>Netbeans <td>	&#11088;	&#11088; &#9734;&#11088;&#11088; </td> </b></td>
-        <td><b>Python <td>	&#11088; &#11088;&#11088; </td> </b></td>
-      </tr>
-      <tr>
-        <td><b><a href="https://www.youtube.com/c/GFXMentor">Adobe Illustrator</a> <td>	&#11088;&#11088;	&#11088; </td> </b></td>
-        <td><b><a href="https://www.youtube.com/c/GFXMentor">Adobe Photoshop</a> <td>	&#11088;&#11088; &#11088; </td> </b></td>
-      </tr>
-    </tbody>
-  </table>
-  <hr>
 
-  <!-- <ul style="list-style-type: square;">
+
+    <table class="move" cellspacing="10">
+      <tr>
+
+        <td><img src="Images/Junaid.png" alt="Junaid Profile Photo"></td>
+        <td>
+          <h1>Muhammad Junaid Amjad</h1>
+
+          <p><em>Graduated From <a href="https://iqra.edu.pk/">Iqra Universty</a></em></p>
+        </td>
+      </tr>
+    </table>
+
+    <br>
+    <hr>
+    <br>
+    <h3>Education</h3>
+    <table>
+      <th>Insitute</th>
+      <th>Level</th>
+      <tbody>
+        <tr>
+          <td>Iqra Universty</td>
+          <td>BS Computer Science</td>
+        </tr>
+        <tr>
+          <td>Federal Government Inter College Mangla Cantt</td>
+          <td> Intermediate (ICs)</td>
+        </tr>
+        <tr>
+          <td>Matriculation</td>
+          <td>Army Public School Mangla Cantt</td>
+        </tr>
+      </tbody>
+    </table>
+    <br>
+    <hr>
+    <br>
+    <table>
+      <thead>
+        <th colspan="2">
+          <h3>Skills</h3>
+        </th>
+      </thead>
+      <tbody>
+        <tr>
+          <td><b><a href="https://therentacar.pk/">WordPress</a>
+          <td>&#11088;&#11088;&#11088;&#11088; </td> </b></td>
+          <td><b>Java
+          <td> &#11088; &#11088; </td> </b></td>
+        </tr>
+        <tr>
+          <td><b>SQL
+          <td> &#11088; &#11088; </td> </b></td>
+          <td><b>Visual Studio
+          <td> &#11088; &#11088; </td> </b></td>
+        </tr>
+        <tr>
+          <td><b>Netbeans
+          <td> &#11088; &#11088; &#9734;&#11088;&#11088; </td> </b></td>
+          <td><b>Python
+          <td> &#11088; &#11088;&#11088; </td> </b></td>
+        </tr>
+        <tr>
+          <td><b><a href="https://www.youtube.com/c/GFXMentor">Adobe Illustrator</a>
+          <td> &#11088;&#11088; &#11088; </td> </b></td>
+          <td><b><a href="https://www.youtube.com/c/GFXMentor">Adobe Photoshop</a>
+          <td> &#11088;&#11088; &#11088; </td> </b></td>
+        </tr>
+      </tbody>
+    </table>
+    <hr>
+
+    <!-- <ul style="list-style-type: square;">
     <li><a href="https://therentacar.pk/">WordPress</a></li>
     <li>SQL</li>
     <li>Visual Studio</li>
@@ -56,18 +205,32 @@
     <li>Java</li>
 </ul><br> -->
 
-<h2 id="down" ><a href="hobbies.html">My Hobbies</a> </h2>
-<ol>
-  <li>Problem Solving</li>
-  <li>Learning New Skills </li>
-  <li>surfing the web</li>
-</ol>
+    <h2 id="down"><a href="hobbies.html">My Hobbies</a> </h2>
+    <ol>
+      <li>Problem Solving</li>
+      <li>Learning New Skills </li>
+      <li>surfing the web</li>
+    </ol>
 
-<h2 id="down1"><a href="Contact_me.html">Contact Us</a></h2>
-<h4>Name: Muhammad Junaid Amjad</h4>
-<p>Mobile No: <a href="tel:03365481977"> 03481520095</a></p>
-<p>Email me :<a href="mailto:muhammadj368@gmail.com?subject=feedback">muhammadj368@gmail.com</a></p>
+    <h2 id="down1"><a href="Contact_me.html">Contact Us</a></h2>
+    <h4>Name: Muhammad Junaid Amjad</h4>
+    <p>Mobile No: <a href="tel:03365481977"> 03481520095</a></p>
+    <p>Email me :<a href="mailto:muhammadj368@gmail.com?subject=feedback">muhammadj368@gmail.com</a></p>
+    <button class="button" type="button" autofocus name="More" onclick="location.href='Contact_me.html';">More</button>
+    <br><br>
+
+    <!-- <label for="Button" type="button" name="More" >Contact Me</label> -->
+  </center>
+
 
 </body>
-
+<div class="Red">
+  <p>I am Red</p>
+</div>
+  <div class="Blue">
+    <p>I am Blue</p>
+</div>
+<div class="Yellow">
+    <p>I am Yellow</p>
+</div>
 </html>
